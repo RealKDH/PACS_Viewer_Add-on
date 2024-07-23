@@ -34,5 +34,19 @@ https://pacs.wh.org.au/WebHelp5/Languages/en-US/Content/HTML/Viewer_Toolbar_Feat
 전반적으로 cornerstone.js 라이브러리를 활용해 기존에 없던 기능을 추가함과 동시에 머신러닝을 사용한 CNN 구축이 메인이 될 것 같음 
 =======================================================================================================================
 
+테이블 디자인은 대표적으로 
+
+1. 회원 member
+create table member(
+member_id varchar(20) primary key,
+member_pw varchar(20),
+
+);
+
+2. 이미지 image
+create table image(
+DICOM 이미지에 포함된 모든 정보로 구축 
+);
+
 
 
