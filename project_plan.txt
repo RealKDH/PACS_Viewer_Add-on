@@ -19,16 +19,16 @@ UI가 너무 복잡한 것 같았음 + 정신이 없음 -> UI를 건드는 것�
 
 주로 cornerstone.js를 사용해서 
 
-1. 실시간으로 이미지 전처리 -> 라이브러리 있을 듯
-2. Segmentation -> 이거도 라이브러리 있었던 것 같은데
+1. 실시간으로 이미지 전처리 
+-> 라이브러리 있을 듯
+2. Segmentation 
+-> 이거도 라이브러리 있음
 3. 다양한 modality로 얻은 사진들 겹치기 가능? 혹은 나란히 나열해서 비교
-4. 구축한 이미지 데이터셋으로 CNN 구동 -> Supervised Learning, 진단에 도움을 주는 툴로서 사용 가능 
+4. 구축한 이미지 데이터셋으로 CNN 구동 
+-> Supervised Learning, 진단에 도움을 주는 툴로서 사용 가능 
+-> 아마 이것을 중심으로 프로젝트 진행할 듯 
 
 + 다국어 기능???? locale 설정
-
-https://pacs.wh.org.au/WebHelp5/Languages/en-US/Content/HTML/Viewer_Toolbar_Features.htm 
--> 여기 형식이 꽤나 괜찮음 
--> 물론 기능을 전부 구현할 수는 없음
 
 =======================================================================================================================
 전반적으로 cornerstone.js 라이브러리를 활용해 기존에 없던 기능을 추가함과 동시에 머신러닝을 사용한 CNN 구축이 메인이 될 것 같음 
@@ -48,8 +48,11 @@ create table image(
 DICOM 이미지에 포함된 모든 정보로 구축 
 );
 
-node.js npm을 통해 cornerstone.js 진행 
-tutorial 진행 
+cornerstonejs를 html/js 위주로 구현한 후 
+경로 설정을 resources/** 같은 식으로 설정 후 
+spring 프로젝트에서도 사용 가능하게 만들자
+
+
 
 
 
