@@ -6,7 +6,7 @@ PACS Viewer add-on
 					Front-end 
 =========================================================================================
 
-UI가 너무 복잡한 것 같았음 + 정신이 없음
+UI가 너무 복잡한 것 같았음 + 정신이 없음 -> UI를 건드는 것을 꺼려하는 기업들이 많음, 이건 건들지 말고 차라리 plug-in의 형식으로 추가 기능을 지원
 
 -> 기존의 툴바 배치가 너무 난잡해서 기능을 다 사용하지 못할 것 같음  
 -> 이미지들이 중요한데 주변이 너무 난잡해서 집중이 잘 안 될 수도 있음
@@ -24,7 +24,7 @@ UI가 너무 복잡한 것 같았음 + 정신이 없음
 3. 다양한 modality로 얻은 사진들 겹치기 가능? 혹은 나란히 나열해서 비교
 4. 구축한 이미지 데이터셋으로 CNN 구동 -> Supervised Learning, 진단에 도움을 주는 툴로서 사용 가능 
 
-+ 다국어 기능???? 
++ 다국어 기능???? locale 설정
 
 https://pacs.wh.org.au/WebHelp5/Languages/en-US/Content/HTML/Viewer_Toolbar_Features.htm 
 -> 여기 형식이 꽤나 괜찮음 
@@ -47,6 +47,9 @@ member_pw varchar(20),
 create table image(
 DICOM 이미지에 포함된 모든 정보로 구축 
 );
+
+node.js npm을 통해 cornerstone.js 진행 
+tutorial 진행 
 
 
 
